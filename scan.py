@@ -14,7 +14,7 @@ colorama_init(autoreset=True)  # Auto reset colors after each print
 OUTPUT_DIR = "output"
 SCREENSHOT_DIR = os.path.join(OUTPUT_DIR, "screenshots")
 os.makedirs(SCREENSHOT_DIR, exist_ok=True)
-CONCURRENCY_LIMIT = 5  # Tune for performance
+CONCURRENCY_LIMIT = 12  # Tune for performance
 
 
 def sanitize_filename(name):
