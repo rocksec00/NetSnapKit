@@ -25,6 +25,7 @@
 ```bash
 pip install playwright Pillow
 playwright install
+pip install colorama
 ````
 
 2. (Optional) For subdomain discovery, install [`assetfinder`](https://github.com/tomnomnom/assetfinder):
